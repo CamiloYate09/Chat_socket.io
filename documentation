@@ -1,0 +1,17 @@
+pasos
+
+1 - npm init
+2- npm install express --save
+3- npm install nodemon --save-dev
+4- crear en la carpeta principal (index.js)
+5- en la terminal ejecutar el comando (nodemon index)
+6- npm install -g nodemon (de forma global)
+7- localhost:4000
+8- npm install socket.io --save
+9 socket io === https://socket.io/
+10 - en el index.html poner === https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js
+
+
+11- hacer deploy en now.sh npm install -g now
+12- now login
+13- now (Exitos)

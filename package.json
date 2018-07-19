@@ -1,0 +1,18 @@
+{
+  "name": "chatsockets",
+  "version": "1.0.0",
+  "description": "aplicacion de chat con tecnologias de sockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "camilo yate 2018",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
