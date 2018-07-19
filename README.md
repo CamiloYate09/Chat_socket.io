@@ -8,3 +8,7 @@
 #[npm] http://vortexbird.com/comandos-basicos-de-npm/
 
 <img src="https://i0.wp.com/blog.javierbertos.name/wp-content/uploads/2016/10/npm-icon-with-beard.png?w=1170" width="100"> NPM</img>
+
+
+#[Architecture]
+<img src="https://softwareengineeringdaily.com/wp-content/uploads/2016/02/socket-io.jpg" width="1000">  App </img>
