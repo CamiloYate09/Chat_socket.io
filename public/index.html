@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
 </head>
-<body>
+<body id="body">
 <div id="camilo-chat">
     <div id="chat-window">
         <div id="output"></div>
@@ -16,7 +16,7 @@
     </div>
 
     <input type="text" id="handle" placeholder="Tu nombre" required/>
-    <input type="text" id="message" placeholder="Mensaje" required/>
+    <input type="text" id="message" placeholder="Mensaje" onreset="" required/>
     <button id="send">
         Enviar
     </button>

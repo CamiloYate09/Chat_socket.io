@@ -12,16 +12,32 @@ var message = document.getElementById('message');
 handle = document.getElementById('handle'),
     btn = document.getElementById('send'),
     output = document.getElementById('output'),
+    body = document.getElementById('body'),
     feedback = document.getElementById('feedback');
 
 // Emitir events
 
+//*************************** ENVIAR MENSAJE CON CLICK
 btn.addEventListener('click', function () {
     socket.emit('chat', {
         message: message.value,
         handle: handle.value
     });
 });
+
+
+//*************************** ENVIAR MENSAJE CON ENTER
+
+// body.addEventListener('keyup',function(e) {
+//     if(e.keyCode == 13) {
+//         socket.emit('chat', {
+//             message: message.value,
+//             handle: handle.value
+//         });
+//     }
+// });
+
+
 
 
 //
