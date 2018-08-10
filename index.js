@@ -9,8 +9,7 @@ var server = app.listen(4000, function () {
 
     console.log('Listening to request on the port 4000')
     
-    
-    // haciendo preubas con Sergio 
+
     
 
 });
